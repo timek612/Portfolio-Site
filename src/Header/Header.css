@@ -1,0 +1,20 @@
+#header {
+    background-color: rgb(155, 174, 168);
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 75px;
+    /* text-align: center; */
+
+}
+
+#headerDiv {
+    text-align: center;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+#headerText {
+    margin-top: 0;
+    padding-top: 2%;
+}
