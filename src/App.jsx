@@ -24,7 +24,7 @@ function App() {
 
               </div>
               <div id='aboutMeText'>
-                <p>My name is AJ Timek, I am a 22-year old Web Developer</p>
+                <p>My name is AJ Timek, I am a 22-year old Web Developer with a passion for creating projects that can make an impact.</p>
               </div>
             </div>
           </section>

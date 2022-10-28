@@ -3,10 +3,8 @@
   src: url('NugoSansLight-9YzoK.ttf');
 } */
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Open+Sans:wght@300&display=swap');
-body {
 
-/* overflow: hidden; */
-
+.App {
 }
 
 .parallax {
@@ -25,6 +23,8 @@ body {
   font-size: xx-large;
   margin-top: 325px;
   text-align: center;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif; 
 }
 
 #welcomeDiv {
@@ -49,9 +49,16 @@ body {
   background-position: center;
   margin-left: auto;
   margin-right: auto;
+  flex-shrink: 0;
+
+}
+
+#aboutMeText {
+
 }
 
 #flexDiv {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 20px;
 }
