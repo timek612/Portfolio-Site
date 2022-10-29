@@ -18,14 +18,23 @@ function App() {
         </div>
         <div id='dov'>
           <h1>A little about me</h1>
-          <section>
-            <div id='flexDiv'>
-              <div id='myFace'>
-
-              </div>
-              <div id='aboutMeText'>
+          <section id='IntroSection'>
+            <div className='flexDiv'>
+              <div id='myFace'></div>
+              <div className='aboutText'>
                 <p>My name is AJ Timek, I am a 22-year old Web Developer with a passion for creating projects that can make an impact.</p>
               </div>
+            </div>
+          </section>
+          <br />
+          <section id='primeSection'>
+            <div className='flexDiv'>
+              <div className='aboutText'>
+                  <p>I recently transitioned to the path of a Web Developer by going through Prime 
+                    Digital Academy's course in 2022.
+                  </p>
+              </div>
+              <div id='primeLogo'></div>
             </div>
           </section>
         </div>

@@ -11,7 +11,7 @@
 #headerDiv {
     text-align: center;
     vertical-align: middle;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 #headerText {
