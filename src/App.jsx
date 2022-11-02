@@ -28,7 +28,7 @@ function App() {
             <div className='flexDiv'>
               <div className='aboutText'>
                 <p>
-                  My first weekend challenge: A jQuery company salary calculator. An app to calculate company monthly employee costs.
+                  My first weekend challenge: A company salary calculator made with jQuery. An app to calculate company monthly employee costs.
                 </p>
               </div>
               <div className='video'><iframe width={500} height={300} src="https://player.vimeo.com/video/765809707?h=aa507c2885&amp;badge=0&amp;loop=1autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -40,8 +40,13 @@ function App() {
           <br />
           <section id='serverSideCalculator'>
             <div className='flexDiv'>
-              <div className='video'></div>
-              <div className='aboutText'></div>
+              <div className='video'><iframe width={500} height={300} src="https://player.vimeo.com/video/766579518?h=3e509e67c0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="jQuery Server Calculator"></iframe></div>
+              <div className='aboutText'>
+                <p>
+                  Weekend challenge #2: Server side Calculator. After learning servers, AJAX and jQuery were used to create this calculator. 
+                </p>
+              </div>
             </div>
           </section>
         </div>

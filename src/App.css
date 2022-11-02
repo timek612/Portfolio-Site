@@ -51,6 +51,12 @@
   margin-right: auto;
   flex-shrink: 0;
   box-shadow: 0 0 0 3px #3e9d9e;
+  transition: all .2s ease-in-out; 
+}
+
+#myFace:hover {
+  transform: scale(1.1); 
+  outline: 8px solid #3e9d9e;
 }
 
 #primeLogo {
@@ -64,6 +70,12 @@
   margin-right: auto;
   flex-shrink: 0;
   box-shadow: 0 0 0 3px #cac2c0;
+  transition: all .2s ease-in-out; 
+}
+
+#primeLogo:hover {
+  transform: scale(1.1); 
+  outline: 8px solid #cac2c0;
 }
 
 #reactLogo {
@@ -77,6 +89,12 @@
   margin-right: auto;
   flex-shrink: 0;
   box-shadow: 0 0 0 3px #cac2c0;
+  transition: all .2s ease-in-out; 
+}
+
+#reactLogo:hover {
+  transform: scale(1.1); 
+  outline: 8px solid #cac2c0;
 }
 
 #climbingPic {
@@ -90,6 +108,12 @@
     margin-right: auto;
     flex-shrink: 0;
     box-shadow: 0 0 0 3px #cac2c0;
+    transition: all .2s ease-in-out; 
+  }
+
+  #climbingPic:hover {
+    transform: scale(1.1); 
+    outline: 8px solid #cac2c0;
   }
 
 
