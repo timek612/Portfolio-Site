@@ -18,7 +18,7 @@
 }
 
 #dov {
-  height:3000px;
+  height:auto;
   background-color:rgb(155, 174, 168);
   font-size: xx-large;
   margin-top: 325px;
@@ -70,7 +70,7 @@
   margin-right: auto;
   flex-shrink: 0;
   box-shadow: 0 0 0 3px #cac2c0;
-  transition: all .2s ease-in-out; 
+  transition: all .5s ease-in-out; 
 }
 
 #primeLogo:hover {
@@ -108,7 +108,7 @@
     margin-right: auto;
     flex-shrink: 0;
     box-shadow: 0 0 0 3px #cac2c0;
-    transition: all .2s ease-in-out; 
+    transition: all .5s ease-in-out; 
   }
 
   #climbingPic:hover {
@@ -135,5 +135,9 @@ hr {
 .video {
   margin-right: 50px;
   margin-left: 50px;
-  
+  transition: all .2s ease-in-out; 
+}
+
+.video:hover {
+  transform: scale(1.1); 
 }

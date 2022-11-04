@@ -27,6 +27,7 @@ function App() {
           <section id='salaryCalculator'>
             <div className='flexDiv'>
               <div className='aboutText'>
+              <h6>Duration: 1 weekend</h6>
                 <p>
                   My first weekend challenge: A company salary calculator made with jQuery. An app to calculate company monthly employee costs.
                 </p>
@@ -41,6 +42,7 @@ function App() {
               <div className='video'><iframe width={500} height={300} src="https://www.youtube.com/embed/D0YVqAlq9sk" title="jQuery Server Side Calculator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div className='aboutText'>
+              <h6>Duration: 1 weekend</h6>
                 <p>
                   Weekend challenge #2: Server side Calculator. After learning servers, AJAX and jQuery were used to create this calculator.
                 </p>
@@ -51,12 +53,40 @@ function App() {
           <section id='toDoList'>
             <div className='flexDiv'>
               <div className='aboutText'>
+              <h6>Duration: 1 weekend</h6>
                 <p>
-                  Test text
+                  Database work: My first full stack app, a To-Do list. Finally learned data management with PostgreSQL and Postico. 
                 </p>
               </div>
               <div className='video'>
                 <iframe width={500} height={300} src="https://www.youtube.com/embed/CAxxmMSYXWE" title="To Do List" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </section>
+          <br />
+          <section id='artGallery'>
+            <div className='flexDiv'>
+              <div className='video'>
+              <iframe width={500} height={300} src="https://www.youtube.com/embed/sXsXMJsm7pI" title="React art gallery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div className='aboutText'>
+                <h6>Duration: 1 weekend</h6>
+                <p>
+                  Getting Reactive: First project created with React and its components. An art gallery allowing you to like photos and view captions. 
+                </p>
+              </div>
+            </div>
+          </section>
+          <br />
+          <section id='feedbackLoop'>
+            <div className='flexDiv'>
+              <div className='aboutText'>
+                <p>
+                  
+                </p>
+              </div>
+              <div className='video'>
+              <iframe width={500} height={300} src="https://www.youtube.com/embed/gilZoyIsReM" title="Feedback Loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </section>
