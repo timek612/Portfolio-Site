@@ -4,8 +4,6 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Open+Sans:wght@300&display=swap');
 
-.App {
-}
 
 .parallax {
   background-image: url('./assets/pexels-johannes-plenio-1103970.jpg');
@@ -117,15 +115,13 @@
   }
 
 
-#aboutMeText {
-
-}
-
 .flexDiv {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
+  height: auto;
+  align-items: center;
 }
 
 hr {
@@ -140,4 +136,8 @@ hr {
 
 .video:hover {
   transform: scale(1.1); 
+}
+
+.videoText {
+  font-size: x-large;
 }
