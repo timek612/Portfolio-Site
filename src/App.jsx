@@ -3,6 +3,9 @@ import About from './About';
 import './App.css';
 
 function App() {
+
+
+
   return (
     <div className="App">
 
@@ -81,12 +84,27 @@ function App() {
           <section id='feedbackLoop'>
             <div className='flexDiv'>
               <div className='aboutText'>
+              <h6>Duration: 1 weekend</h6>
                 <p>
-                  
+                  State Management: After learning about Redux, I put those skills to the test by creating a feedback loop application to gather, display and submit user data. 
                 </p>
               </div>
               <div className='video'>
               <iframe width={500} height={300} src="https://www.youtube.com/embed/gilZoyIsReM" title="Feedback Loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </section>
+          <br />
+          <section>
+            <div className='flexDiv'>
+              <div className='video'>
+              <iframe width={500} height={300} src="https://www.youtube.com/embed/XZ3pHYGvNiY" title="Movies Saga" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div className='aboutText'>
+              <h6>Duration: 1 weekend</h6>
+                <p>
+                  A new saga: Movies saga is a full stack application where I incorporated newly learned Redux-Saga skills, allowing for more efficient data retrieval. 
+                </p>
               </div>
             </div>
           </section>
