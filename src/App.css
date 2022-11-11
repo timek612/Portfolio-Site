@@ -146,3 +146,12 @@ hr {
   height: 50px;
   width: 50px;
 }
+
+#githubIcon, #emailIcon {
+  border-radius: 50%;
+}
+
+.getInTouch {
+  display: flex;
+  justify-content: space-around;
+}
